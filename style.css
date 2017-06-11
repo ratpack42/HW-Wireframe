@@ -1,0 +1,58 @@
+/*Wireframe*/
+
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body{
+	width: 960px;
+	background: #777;
+	font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	/*explains sizing of the page*/
+	margin: 0 auto;
+}
+
+header, nav, section, article, h1, p, aside, footer{
+	background: #ebebeb;
+	padding: 20px;
+	color: #777;
+}
+ 
+section{
+	width: 495px;
+}
+
+
+header{
+	margin: 10px 0;
+}
+
+/*U can place a comma next to elements you are doing the same styling*/
+nav, main{
+	margin-bottom: 20px;
+}
+
+section{
+	float: left;
+	margin-right: 20px;
+}
+
+/*overflow hides space a box is taking up*/
+aside{
+	overflow: auto;
+	height: 313px;
+
+}
+
+footer{
+	clear: both;
+}
+
+
+article{
+	background: #777;
+	color: #ebebeb;
+}
+
